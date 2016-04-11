@@ -1,7 +1,7 @@
 {
-  "name": “nilluminati”,
+  "name": "nilluminati",
   "description": "Work from home?  Leave early?  Relax?  IN THIS CRITICAL SPRINT!?",
-  "repository": "https://github.com/czarmatt/nilluminati”,
+  "repository": "https://github.com/czarmatt/nilluminati",
   "logo": "http://i.imgur.com/eGBcBrA.png",
   "keywords": ["node", "express", "critical-sprint", "slack"],
   "env": {
