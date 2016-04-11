@@ -1,4 +1,9 @@
-# Critical Sprint
+![The Nilluminati][logo]
+
+[logo]: http://i.imgur.com/YMQs6UO.png "The Nilluminati"
+
+# Nilluminati
+
 
 This Slack Bot will appear and remind you just how dire your contributions are in this critical sprint.
 
@@ -6,7 +11,7 @@ This Slack Bot will appear and remind you just how dire your contributions are i
 ### Step 1 - Create an Outgoing Webhook integration
 You'll need to go to https://my.slack.com/services/new/outgoing-webhook and add a new Outgoing Webhook integration. 
 
-Select a channel where you want Critical Sprint to hang out. I'm using #general, for example. Additionaly, there is a Token on the Integration Settings section. Copy that value. You'll need it later.
+Select a channel where you want The Nilluminati to hang out.  Additionaly, there is a Token on the Integration Settings section. Copy that value. You'll need it later.
 
 Keep this browser tab open, because we will come back to it later.
 
