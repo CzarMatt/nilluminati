@@ -51,7 +51,7 @@ app.post('*', function critical(req, res) {
         // we have a match!  send the bot's response
         var botResponse = {
             icon_url: 'http://i.imgur.com/eGBcBrA.png',
-            username: ‘Nilluminati Bot',
+            username: 'Nilluminati Bot',
             text: ' ' + userName + ', IN THE MIDDLE OF THIS CRITICAL SPRINT!!??!!?!!1'
         };
 
