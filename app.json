@@ -1,0 +1,14 @@
+{
+  "name": “nilluminati”,
+  "description": "Work from home?  Leave early?  Relax?  IN THIS CRITICAL SPRINT!?",
+  "repository": "https://github.com/czarmatt/nilluminati”,
+  "logo": "http://i.imgur.com/eGBcBrA.png",
+  "keywords": ["node", "express", "critical-sprint", "slack"],
+  "env": {
+    "OUTGOING_WEBHOOK_TOKEN": {
+      "description": "Slack gives you this key to verify if the request came from Slack. You can find it on the Outgoing Webhook integration.",
+      "value": "",
+      "required": false
+    }
+  }
+}
