@@ -52,7 +52,7 @@ app.post('*', function critical(req, res) {
         var botResponse = {
             icon_url: 'http://i.imgur.com/eGBcBrA.png',
             username: 'Nilluminati Bot',
-            text: ' ' + userName + ', IN THE MIDDLE OF THIS CRITICAL SPRINT!!??!!?!!1'
+            text: ' @' + userName + ', IN THE MIDDLE OF THIS CRITICAL SPRINT!!??!!?!!1'
         };
 
         // log out some stuff
