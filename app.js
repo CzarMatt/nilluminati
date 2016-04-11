@@ -79,7 +79,7 @@ app.use(function(err, req, res) {
 });
 
 app.listen(port, function() {
-    console.log(‘Critical Sprint Bot is listening on port ' + port);
+    console.log('The Illuminati is listening on port ' + port);
 });
 
 function containsAny(str, substrings) {
