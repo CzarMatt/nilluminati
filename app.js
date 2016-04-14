@@ -41,7 +41,7 @@ app.post('*', function critical(req, res) {
     userName = req.body.user_name;
 
     // sample strings to compare against
-    var substrings = ['wfh', 'wah', 'work at home', 'working at home', 'be in by', 'in the office by',
+    var substrings = ['wfh', 'work at home', 'working at home', 'be in by', 'in the office by',
         'work from home', 'working from home', 'leaving early', 'vacation', 'pto'];
 
     // result will be true if any of the sample strings are contained within the incoming text
