@@ -42,7 +42,7 @@ app.post('*', function critical(req, res) {
 
     // sample strings to compare against
     var substrings = ['wfh', 'work at home', 'working at home', 'be in by', 'in the office by',
-        'work from home', 'working from home', 'leaving early', 'vacation', 'pto'];
+        'work from home', 'working from home', 'leaving early', 'vacation'];
 
     // result will be true if any of the sample strings are contained within the incoming text
     var result = containsAny(textToParse.toUpperCase(), substrings);
