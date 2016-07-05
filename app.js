@@ -31,6 +31,12 @@ app.post('*', function critical(req, res) {
     if (data.user_name === 'slackbot') {
         return res.status(200).end();
     }
+    
+    // return if Jarvis Bot is chatting because we don’t want an infinite loop
+    // slack can ban this app for spamming the chatroom.
+    if (data.user_name === 'as') {
+        return res.status(200).end();
+    }
 
     // return if the incoming user is the same as the previously stored user
     if (data.user_name === userName) {
