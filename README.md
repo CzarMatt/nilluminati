@@ -2,7 +2,8 @@
 
 [logo]: http://i.imgur.com/YMQs6UO.png "The Nilluminati"
 
-# Nilluminati
+# WTF-Bot
+( Originally - The Nilluminati Bot )
 
 
 This Slack Bot will appear and remind you just how dire your contributions are in this critical sprint.
