@@ -32,6 +32,12 @@ app.post('*', function critical(req, res) {
         return res.status(200).end();
     }
     
+    // return if the slackbot hasn't gotten a handle on anyone's username
+    // aka: don't bother posting the default name
+    if (data.user_name === 'Beyonce') {
+        return res.status(200).end();
+    }
+    
     // return if Jarvis Bot is chatting because we don’t want an infinite loop
     // slack can ban this app for spamming the chatroom.
     if (data.user_name === 'as') {
@@ -57,7 +63,7 @@ app.post('*', function critical(req, res) {
         // we have a match!  send the bot's response
         var botResponse = {
             icon_url: 'http://i.imgur.com/eGBcBrA.png',
-            username: 'Nilluminati Bot',
+            username: 'WTF Bot',
             text: ' @' + userName + ', IN THE MIDDLE OF THIS CRITICAL SPRINT!!??!!?!!1'
         };
 
